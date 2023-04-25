@@ -1,0 +1,84 @@
+/* UNIVERSAL SETTING */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+.menubar{
+    background-color: lightblue;
+    height: 10vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+/* LOGO */
+#logo{
+    width: 120px;
+    height: 75px;
+}
+.listItem{
+    width: 120px;
+    height: 75px;
+}
+#list-div{
+    margin-left: 50%;
+}
+#gray-div{
+    background-color: darkgray;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blueRect{
+    height: 100px;
+    width: 50%;
+    /* margin-top: 190px; */
+}
+#BR{
+    width: 50%;
+    height: 100px;
+    margin-top: 20%;
+}
+#blue_Circle{
+    height: 300px;
+    margin-top: 20%;
+}
+.blue-div{
+    height: 75vh;
+    background-color: darkblue;
+}
+.Gallery img {
+    padding: 5px;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+.lastbox{
+    height: 50vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+}
+.lastBlueBox{
+    height: 40vh;
+    width: 80%;
+    background-color: rgb(42, 160, 200);
+    margin: 20px 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+#BB{
+    background-color:  lightblue;
+    border-radius: 50%;
+    height: 50px;
+    width: 70px;
+    margin-top: 0;
+    color: black;
+}
